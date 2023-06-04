@@ -16,7 +16,7 @@ namespace AzureProject2
         {
             // Creates an instance of a speech translation config with specified subscription key and service region.
             // Replace with your own subscription key and service region (e.g., "westus").
-            var config = SpeechTranslationConfig.FromSubscription("f8478508315a4c62bd3d78afbcdfaccd", "westeurope");
+            var config = SpeechTranslationConfig.FromSubscription("Key", "Region");
 
             // Sets source and target languages.
             string fromLanguage = "en-US";
